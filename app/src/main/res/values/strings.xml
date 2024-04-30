@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name" translatable="false">Cyprus Traveler</string>
+    // DEBUG - NO TRANSLATION
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_activity_settings" translatable="false">MainSettings</string>
+    <string name="title_home" translatable="false">Home</string>
+
+    // Splash screen
+    <string name="txt_your_gateway_to_memorable_escapes" translatable="false">Your gateway to memorable escapes.</string>
+
+    // Bottom Nav
+    <string name="menu_home">Home</string>
+    <string name="menu_favourites">Favourites</string>
+    <string name="menu_profile">Profile</string>
+    // Drawer Nav
+    <string name="txt_drawer_nav_exit">Exit</string>
+    <string name="txt_drawer_nav_settings">Settings</string>
+    <string name="txt_drawer_nav_favourites">Favourites</string>
+    <string name="txt_drawer_nav_profile">Profile</string>
+    <string name="txt_drawer_nav_category_general">General</string>
+    <string name="txt_drawer_nav_category_account">Account</string>
+    <string name="txt_drawer_nav_category_other">Other</string>
+    <string name="nav_drawer_close_res" translatable="false" />
+
+    // General
+    <string name="txt_please_wait">Please Wait…</string>
+    <string name="txt_please_click_back_again_to_exit">Press again to exit</string>
+
+    // Home
+    <string name="txt_top_destinations">Top Destinations</string>
+    <string name="txt_discover">Discover</string>
+    <string name="txt_categories">Categories</string>
+    <string name="txt_view_all">View All</string>
+
+    // Profile
+    <string name="txt_account_info">Account Info</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_phone_number">Phone Number</string>
+    <string name="txt_date_created">Date Created</string>
+    <string name="txt_edit">Edit</string>
+    <string name="txt_sign_out">Sign Out</string>
+
+    // Settings
+    <string name="txt_settings">Settings</string>
+
+    // Locale
+    <string name="txt_greek">Greek</string>
+    <string name="txt_english">English</string>
+
+    // Empty Layout
+    <string name="txt_must_sign_in">Sign In!</string>
+    <string name="txt_must_sign_in_2">You must sign in to see this.</string>
+    <string name="txt_no_favorites">No favorites found!</string>
+    <string name="txt_no_favorites_2">You haven\'t add anything to your favorites yet!</string>
+    <string name="txt_no_interests">No interests found!</string>
+    <string name="txt_no_interests_2">You haven\'t yet selected your interests from your profile!</string>
+    <string name="txt_sign_in">Sign In</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="txt_destinations">Destinations</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_favourites">Favourite Destinations</string>
+    <string name="txt_loading">Loading…</string>
+
+    <string name="txt_no_top_dest_available">No Top Destinations!</string>
+    <string name="txt_check_again_another_time">Try again later.</string>
+    <string name="txt_language">Language</string>
+    <string name="txt_appearance">Appearance</string>
+    <string name="dark_mode">Night Mode</string>
+
+    <string name="txt_dismiss">Dismiss</string>
+    <string name="txt_edit_profile">Edit Profile</string>
+    <string name="input_txt_hint_full_name">Your name</string>
+    <string name="input_txt_hint_phone_number">Your phone number</string>
+    <string name="input_txt_hint_email">Your email address</string>
+    <string name="input_txt_hint_password">Your password</string>
+    <string name="txt_full_name">Full Name</string>
+
+    <string name="txt_error_registration_failed">An error has occurred with registration, please contact our support team.</string>
+    <string name="txt_error_empty_name">Please enter your full name.</string>
+    <string name="txt_error_empty_password">Please enter your password.</string>
+    <string name="txt_error_empty_email">Please enter your email.</string>
+    <string name="txt_error_empty_phone">Please enter your phone number.</string>
+    <string name="txt_password_reset_mail_sent">Email sent successfully to reset your password!</string>
+    <string name="txt_profile_updated">Your profile has been updated successfully!</string>
+    <string name="txt_congratulations">Congratulations!</string>
+    <string name="txt_congratulations_2">Your account has been created successfully!</string>
+    <string name="txt_forgot_password_question">Forgot password?</string>
+    <string name="txt_forgot_password">Forgot password</string>
+    <string name="button_send">Send</string>
+    <string name="txt_password_reset">Password Reset</string>
+    <string name="txt_enter_email_address_to_send_reset_code">Enter email address to send reset code.</string>
+
+    // Formats
+    <string name="txt_format_phone" translatable="false">+%1$s %2$s</string>
+
+    <string name="txt_none">None</string>
+    <string name="txt_don_t_have_an_account">Don\'t have an account? <b>Sign Up</b></string>
+    <string name="sign_in_act_header_2">Enter your email and password to continue.</string>
+    <string name="txt_lets_get_started">Let\'s get started</string>
+    <string name="txt_already_have_an_account">Already have an account? <b>Sign In</b></string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_interests">Interests</string>
+    <string name="txt_relaxation">Relaxation</string>
+    <string name="txt_adventure">Adventure</string>
+    <string name="txt_sports">Sports (Coming Soon)</string>
+    <string name="txt_museums">Museums/Attractions/Churches</string>
+    <string name="txt_hotels">Hotels</string>
+    <string name="txt_restaurants">Restaurants</string>
+    <string name="image_selection_failed">Image selection cancelled</string>
+    <string name="read_storage_permission_denied">Oops, you just denied the permission for storage. You can also allow it from settings.</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+    <string name="txt_no_description">No description.</string>
+</resources>

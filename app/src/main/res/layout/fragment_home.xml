@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_background"
+    android:fillViewport="true"
+    tools:context=".ui.fragments.HomeFragment"
+    tools:ignore="contentDescription">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/veilRecyclerView_Destinations"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="32dp"
+            tools:listitem="@layout/item_destination"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:clipToPadding="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_view_top_destinations"
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:textSize="16.5sp"
+            android:text="@string/txt_top_destinations"
+            app:layout_constraintEnd_toStartOf="@+id/txt_view_top_destinations_view_all"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/veilRecyclerView_Top_Destinations"
+            app:layout_constraintTop_toBottomOf="@+id/veilRecyclerView_Destinations" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_view_top_destinations_view_all"
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/txt_view_all"
+            android:visibility="invisible"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_view_top_destinations"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txt_view_top_destinations" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/veilRecyclerView_Top_Destinations"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            tools:listitem="@layout/item_top_destination"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:clipToPadding="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_view_top_destinations" />
+
+        <include
+            android:id="@+id/layout_Empty_State_Top_Destinations"
+            layout="@layout/layout_empty_state_top_destinations"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:clipToPadding="false"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/veilRecyclerView_Top_Destinations"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_view_top_destinations" />
+
+        <include
+            android:id="@+id/layout_user_has_not_selected_interests"
+            layout="@layout/layout_user_has_not_selected_interests"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/veilRecyclerView_Destinations"
+            app:layout_constraintTop_toBottomOf="@+id/veilRecyclerView_Top_Destinations" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
